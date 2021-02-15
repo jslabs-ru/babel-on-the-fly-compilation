@@ -1,0 +1,20 @@
+{
+  "name": "babel-on-the-fly-compilation",
+  "version": "1.0.0",
+  "description": "Run es6 app with babel on the fly compilation",
+  "scripts": {
+    "start-without-babel": "node ./src/main",
+    "start": "node ./src/runner"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.13"
+  }
+}
